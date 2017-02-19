@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="b3305dc368f170586ba4c0ae816584db1d80a69f">
+        <dex dex="/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/build/intermediates/pre-dexed/debug/instant-run_631c86ea79997661c2e1eea5eb974219bc1e9906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="80f0ad3c436a20fdf37cdd33a1c4d1558edd0b2c">
+        <dex dex="/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/build/intermediates/pre-dexed/debug/instant-run-bootstrap_a292bcd0084af8378f2a6c622c3eb0f780000de3.jar" />
+    </item>
+
+</items>

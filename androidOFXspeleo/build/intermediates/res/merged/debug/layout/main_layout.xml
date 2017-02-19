@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <cc.openframeworks.OFGLSurfaceView android:id="@+id/of_gl_surface"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:id="@+id/connect"
+        android:onClick="connectOnClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/section"
+        style="@android:style/Theme.Holo" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/laser"
+        android:onClick="laserOnCheckedChanged"
+        android:enabled="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/measure"
+        style="@android:style/Theme.Holo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measure"
+        android:id="@+id/measure"
+        android:onClick="measureOnClick"
+        android:enabled="false"
+        android:layout_below="@+id/laser"
+        android:layout_alignParentEnd="true"
+        style="@android:style/Theme.Holo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section"
+        android:id="@+id/section"
+        android:layout_alignTop="@+id/measure"
+        android:layout_toStartOf="@+id/measure"
+        android:onClick="sectionOnClick"
+        android:enabled="false"
+        style="@android:style/Theme.Holo" />
+
+    <Button
+        style="@android:style/Theme.Holo"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:text="C"
+        android:id="@+id/clear"
+        android:onClick="clearOnClick"
+        android:layout_below="@+id/section"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/measure"
+        android:layout_alignEnd="@+id/measure"
+        android:layout_alignStart="@+id/laser">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R "
+            android:id="@+id/radioButtonR"
+            android:layout_gravity="right"
+            style="@android:style/Theme.Holo"
+            android:onClick="onRadioButtonClicked"
+            android:checked="true"
+            android:background="#609e9e9e" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S "
+            android:id="@+id/radioButtonS"
+            android:layout_gravity="right"
+            style="@android:style/Theme.Holo"
+            android:onClick="onRadioButtonClicked"
+            android:background="#609e9e9e" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T "
+            android:id="@+id/radioButtonT"
+            android:layout_gravity="right"
+            style="@android:style/Theme.Holo"
+            android:onClick="onRadioButtonClicked"
+            android:background="#609e9e9e" />
+    </RadioGroup>
+
+    <!-- add here other views' layouts -->
+    </RelativeLayout>

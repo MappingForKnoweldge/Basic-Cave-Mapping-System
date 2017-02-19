@@ -1,0 +1,7 @@
+set solib-search-path /home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/obj/local/armeabi-v7a:/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/libs/armeabi-v7a
+set sysroot /home/andrea/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86/
+directory /home/andrea/Android/Sdk/ndk-bundle/platforms/android-19/arch-arm/usr/include
+directory /home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/src
+directory /home/andrea/Android/Sdk/ndk-bundle/sources/cxx-stl/system
+directory /home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/libs/armeabi-v7a
+

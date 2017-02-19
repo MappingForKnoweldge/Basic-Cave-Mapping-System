@@ -1,0 +1,125 @@
+[
+    {
+        "outputFile": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 53,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 46,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/build/intermediates/exploded-aar/androidOFXspeleo/ofAndroidLib/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 46,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 52,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 52,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 50,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 50,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 551,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 706
+                },
+                "from": {
+                    "file": "/home/andrea/of_v0.9.5_android_release/apps/myApps/androidOFXspeleo/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]
